@@ -1,0 +1,121 @@
+#quizTitle{
+	height: 150px;
+	background-color: lightgrey;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+ 
+#details{
+	background-color: lightgrey;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#start{
+	float: right;
+	color: floralwhite;
+	margin-right: 50px;
+	background-color: lightgreen;
+	height: 50px;
+	width: 100px;
+}
+
+
+
+
+#quiz-page{
+	display: none;
+}
+
+#testTitle{
+	width: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	background-color: darkgray;
+	color: floralwhite;
+}
+
+#testTitle h1{
+	display: inline-block;
+}
+
+#time{
+	float: right;
+	margin-right: 80px;
+	color: floralwhite;
+}
+
+#quesBox{
+	width: 80%;
+	height: 300px;
+	background-color: dimgray;
+	padding: 100px;
+	margin: auto;
+}
+
+form{
+	font-size: 20px;
+}
+
+form input{
+	margin-bottom: 20px;
+}
+
+#submit{
+	float: left;
+	margin-right: 50px;
+	background-color: lightblue;
+	height: 50px;
+	width: 80px;
+	color: floralwhite;
+}
+
+#next{
+	float: right;
+	margin-right: 50px;
+	background-color: lightgreen;
+	height: 50px;
+	width: 80px;
+	color: darkblue;
+}
+
+#opt1, #opt2, #opt3, #opt4{
+	display: inline;
+}
+
+#answerKey{
+	display: none;
+	background-color: slategray;
+}
+
+#scoreScreen{
+	width: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	background-color: darkgray;
+	color: floralwhite;
+}
+
+#correctAns{
+	height: auto;
+	width: 80%;
+	background-color: dimgray;
+	padding: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px; 
+}
+ 
+#restart{
+	float: right;
+	background-color: lightgoldenrodyellow;
+	color: black;
+	height: 50px;
+	width: 60px;
+	margin-top: 5px;
+	margin-right: 20px;
+}

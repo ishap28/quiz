@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- CSS file -->
+	<link rel="stylesheet" type="text/css" href="quizStyle.css">
+	<title> CQ Quiz</title>
+</head>
+
+<body style="background-color: slategray;">
+
+							<!-- HOME PAGE -->
+	<div id="home-page">
+		<div id="quizTitle">
+			<h1><img src="logoab.jpg" alt="logo" width="100px" height="100px">QuizTime</h1>
+		</div>
+
+		<br>
+
+		<div id="details">
+			
+			<h2>DETAILS...</h2>
+			<ul>
+				<li>The quiz contains questions of topic WEB DEVELOPMENT.</li>
+				<li>Each question carries 1 marks.</li>
+				<li>There are total of 10 questions to attempt.</li>
+				<li>Result will be displayed after the test along with answer key.</li>
+			</ul>
+			
+			<br>
+			
+			<h2 id="rules">RULES...</h2>
+			<ul>
+				<li>It is mandatory to answer every question.</li>
+				<li>The test will have time period of 10 minutes.</li>
+				<li>Next question can be accessed only after answering the current question.</li>
+				<li>You can restart the quiz after finishing it.</li>
+			</ul>
+			</h2>
+
+		</div>
+
+		<br>
+
+		<button type="submit" name="start" id="start">Start test</button>
+
+	</div>
+
+							<!-- QUIZ PAGE -->
+	<div id="quiz-page">
+
+		<div id="testTitle">
+			<h1 id="pageHeader">Multiple Choice Questions</h1>
+			<h1 id="time"></h1>
+		</div>
+
+		<br>
+
+		<div id="quesBox">
+			<h2 id="question"></h2>
+			<form id="options">
+				<input type="radio" name="ans" id = "ans1"><p id="opt1"></p>
+				<br>
+				<input type="radio" name="ans" id = "ans2"><p id="opt2"></p> 
+				<br>
+				<input type="radio" name="ans" id = "ans3"><p id="opt3"></p>
+				<br>
+				<input type="radio" name="ans" id = "ans4"><p id="opt4"></p>
+			</form>
+
+			<br>
+
+			<button type="submit" id="submit">Submit</button>
+
+
+
+			<button type="submit" id="next">Next</button>
+		</div>
+
+	</div>
+
+	<div id="answerKey">
+
+		<div id="scoreScreen">
+			<button id = "restart">Restart</button>
+			<h1 id="scoreS"></h1>
+			
+		</div>
+
+		<div id="correctAns"></div>
+
+	</div>
+
+</body>
+
+<script type="text/javascript" src="quizJS.js"> </script>
+
+</html>
